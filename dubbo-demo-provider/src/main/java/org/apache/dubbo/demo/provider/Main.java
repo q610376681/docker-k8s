@@ -15,7 +15,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 @SpringBootApplication
 public class Main {
     public static void main(String[] args) throws Exception {
-        new SpringApplicationBuilder(Main.class)
-                .run(args);
+        SpringApplication.run(Main.class,args);
     }
 }

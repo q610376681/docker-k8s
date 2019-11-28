@@ -18,14 +18,13 @@ import org.springframework.context.annotation.Bean;
  **/
 
 @SpringBootApplication
-
 public class MainConsumer {
     private final Logger logger = LoggerFactory.getLogger(getClass());
-    @Reference(url = "dubbo://127.0.0.1:12345")
+    @Reference
     public DemoService demoService;
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(MainConsumer.class).close();
+        SpringApplication.run(MainConsumer.class,args);
     }
     @Bean
     public ApplicationRunner runner() {
