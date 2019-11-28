@@ -9,9 +9,10 @@ package org.apache.dubbo.demo.provider;
 import org.apache.dubbo.demo.DemoService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
-@EnableAutoConfiguration
+@SpringBootApplication
 public class Main {
     public static void main(String[] args) throws Exception {
         new SpringApplicationBuilder(Main.class)
