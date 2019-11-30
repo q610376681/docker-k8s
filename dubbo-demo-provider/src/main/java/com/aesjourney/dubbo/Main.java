@@ -1,4 +1,4 @@
-package org.apache.dubbo.demo.provider;
+package com.aesjourney.dubbo;
 
 /**
  * @ClassName: Main
@@ -6,11 +6,8 @@ package org.apache.dubbo.demo.provider;
  * @Author: ZhangChen
  * @Date: 2019/11/26 21:00
  **/
-import org.apache.dubbo.demo.DemoService;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 
 @SpringBootApplication
 public class Main {

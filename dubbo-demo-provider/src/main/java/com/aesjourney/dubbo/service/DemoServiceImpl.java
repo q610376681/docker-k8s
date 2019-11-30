@@ -1,4 +1,4 @@
-package org.apache.dubbo.demo.provider.service;
+package com.aesjourney.dubbo.service;
 
 import org.apache.dubbo.config.annotation.Service;
 import org.apache.dubbo.demo.DemoService;

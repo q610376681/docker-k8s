@@ -29,7 +29,7 @@ public class MainConsumer {
     @Bean
     public ApplicationRunner runner() {
         return args -> {
-            logger.info(demoService.sayHello("mercyblitz"));
+            logger.info(demoService.sayHello("zhangchen"));
         };
     }
 }
